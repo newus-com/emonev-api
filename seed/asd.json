@@ -1,0 +1,36 @@
+,
+        {
+            "name" : "PerencanaanPembangunan",
+            "permission" : [
+                {
+                    "name" : "R_RENCANA_PEMBANGUNAN",
+                    "description": "Lihat Rencana Pembangunan"
+                },
+                {
+                    "name" : "U_RENCANA_PEMBANGUNAN",
+                    "description": "Ubah Rencana Pembangunan"
+                }
+            ]
+        },
+        {
+            "name" : "LaporanPembangunan",
+            "permission" : [
+                {
+                    "name" : "R_LAPORAN_PEMBANGUNAN",
+                    "description": "Lihat Laporan Pembangunan"
+                }
+            ]
+        },
+        {
+            "name" : "MonitoringPembangunan",
+            "permission" : [
+                {
+                    "name" : "R_MONITORING_PEMBANGUNAN",
+                    "description": "Lihat Monitoring Pembangunan"
+                },
+                {
+                    "name" : "U_MONITORING_PEMBANGUNAN",
+                    "description": "Ubah Monitoring Pembangunan"
+                }
+            ]
+        }

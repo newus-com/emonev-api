@@ -1,0 +1,25 @@
+{
+    "module": [
+        {
+            "name" : "Monitoring",
+            "permission" : [
+                {
+                    "name": "U_DATA_UMUM_PEMBANGUNAN",
+                    "description": "Ubah Data Umum Monitoring"
+                },
+                {
+                    "name": "U_BLANKO_PEMBANGUNAN",
+                    "description": "Ubah Blanko Monitoring"
+                },
+                {
+                    "name": "U_DOKUMENTASI_PEMBANGUNAN",
+                    "description": "Ubah Dokumentasi Monitoring"
+                },
+                {
+                    "name": "U_INFORMASI_PEMBANGUNAN",
+                    "description": "Ubah Informasi Pembangunan"
+                }
+            ]
+        }
+    ]
+}
