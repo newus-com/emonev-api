@@ -5,7 +5,7 @@ nbproject/
 .DS_STORE
 /coverage/
 # Vendor
-/vendor/
+# /vendor/
 # Logs
 /logs/*
 !/logs/README.md
