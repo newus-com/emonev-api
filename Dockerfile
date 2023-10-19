@@ -2,14 +2,11 @@ FROM php:8-alpine
 
 RUN apk --no-cache update && \
     apk --no-cache add git zip unzip curl libzip-dev && \
-    docker-php-ext-install zip
+    docker-php-ext-install mysqli pdo_mysql 
 
 # Install Composer globally
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
     
-# Install MySQLi extension
-RUN docker-php-ext-install mysqli
-
 # Set the working directory to your web application's directory
 WORKDIR /var/www
 
